@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ensure.That" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Infrastructure\Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\FuzjaApi.Models\FuzjaApi.Models.csproj" />
+  </ItemGroup>
+
+</Project>

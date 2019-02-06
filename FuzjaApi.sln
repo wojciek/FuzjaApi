@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzjaApi.API", "FuzjaApi.API\FuzjaApi.API.csproj", "{EA2509AC-9F4A-400A-AFCA-27FE9E81C2F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzjaApi.ApplicationService", "FuzjaApi.ApplicationService\FuzjaApi.ApplicationService.csproj", "{32D6A098-BA29-419E-ABA3-4C9B3914BDCD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C805843-58B9-41DB-87EE-F4394A1F301C} = {3C805843-58B9-41DB-87EE-F4394A1F301C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Infrastructure", "Common.Infrastructure\Common.Infrastructure.csproj", "{3C805843-58B9-41DB-87EE-F4394A1F301C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzjaApi.Infrastructure", "FuzjaApi.Infrastructure\FuzjaApi.Infrastructure.csproj", "{09BED3B1-39D5-476D-AC04-2E784C1EA28D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzjaApi.Domain", "FuzjaApi.Domain\FuzjaApi.Domain.csproj", "{AAD4C84B-02D6-4B6B-9241-D645857F22F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzjaApi.Models", "FuzjaApi.Models\FuzjaApi.Models.csproj", "{489BBB24-FCEE-480F-9056-0F8E6EE350F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA2509AC-9F4A-400A-AFCA-27FE9E81C2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2509AC-9F4A-400A-AFCA-27FE9E81C2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2509AC-9F4A-400A-AFCA-27FE9E81C2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2509AC-9F4A-400A-AFCA-27FE9E81C2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D6A098-BA29-419E-ABA3-4C9B3914BDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D6A098-BA29-419E-ABA3-4C9B3914BDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D6A098-BA29-419E-ABA3-4C9B3914BDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D6A098-BA29-419E-ABA3-4C9B3914BDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C805843-58B9-41DB-87EE-F4394A1F301C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C805843-58B9-41DB-87EE-F4394A1F301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C805843-58B9-41DB-87EE-F4394A1F301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C805843-58B9-41DB-87EE-F4394A1F301C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BED3B1-39D5-476D-AC04-2E784C1EA28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BED3B1-39D5-476D-AC04-2E784C1EA28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BED3B1-39D5-476D-AC04-2E784C1EA28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BED3B1-39D5-476D-AC04-2E784C1EA28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD4C84B-02D6-4B6B-9241-D645857F22F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD4C84B-02D6-4B6B-9241-D645857F22F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD4C84B-02D6-4B6B-9241-D645857F22F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD4C84B-02D6-4B6B-9241-D645857F22F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489BBB24-FCEE-480F-9056-0F8E6EE350F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489BBB24-FCEE-480F-9056-0F8E6EE350F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489BBB24-FCEE-480F-9056-0F8E6EE350F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489BBB24-FCEE-480F-9056-0F8E6EE350F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3216144B-462D-4877-8868-A75F626DC4EE}
+	EndGlobalSection
+EndGlobal

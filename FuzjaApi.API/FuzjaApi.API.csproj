@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\PersonsController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ensure.That" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FuzjaApi.ApplicationService\FuzjaApi.ApplicationService.csproj" />
+    <ProjectReference Include="..\FuzjaApi.Infrastructure\FuzjaApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\FuzjaApi.Models\FuzjaApi.Models.csproj" />
+  </ItemGroup>
+
+</Project>
